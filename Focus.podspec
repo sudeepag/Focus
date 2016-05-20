@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Focus"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Easily focus on or highlight UI elements. Written in Swift."
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = "Masking UIView that allows you to focus on or highlight UI elements, and is easily customizable. Great for tutorials or walkthrough where attention needs to be directed to a certain area of the screen."
 
   s.homepage         = "https://github.com/sudeepag/Focus"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  # s.screenshots     = "https://cloud.githubusercontent.com/assets/11940172/15418328/3c27e6a6-1e13-11e6-8480-1ab4e91b4dc1.PNG", "https://cloud.githubusercontent.com/assets/11940172/15418327/3c26995e-1e13-11e6-9373-dfa70e180623.PNG"
   s.license          = 'MIT'
   s.author           = { "Sudeep Agarwal" => "sudeep135@gmail.com" }
   s.source           = { :git => "https://github.com/sudeepag/Focus.git", :tag => s.version.to_s }
