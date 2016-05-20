@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		396CC8631E31A91DEF97747E07A7B6F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		5A782EC94D1F572FFF91D2981A29EE51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		628E16CC86D28E7BE16078185B562968 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142161D24FDC41B7B11CFA3572209715 /* ReplaceMe.swift */; };
-		647BD9E77CDDD839AC74F177BF33828B /* Focus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3DEB5E2688AEFD20D6EC98892808B /* Focus-dummy.m */; };
+		8A7ECC5E2D1344FBF6857CA2A7299A4F /* Focus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3DEB5E2688AEFD20D6EC98892808B /* Focus-dummy.m */; };
 		A52E608CD85470A8F1A5AE28B2560004 /* Pods-Focus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7865EAF863A52F0C52A6884C4DD30C0 /* Pods-Focus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4574A0FB6C029A8FCA8F907FA5930D0 /* Pods-Focus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9527C16CE359C826971E6D92DD1E60D9 /* Pods-Focus_Tests-dummy.m */; };
 		B927C2F6453C90E5759BD597F6D28B9C /* Pods-Focus_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4133C5C18D4F2ECCD0C832A1605B7106 /* Pods-Focus_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFDBA8278FD20D40376AD509D164101E /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEBCA7B6D87FDFBBB207B6DFF158F60 /* FocusView.swift */; };
 		E4CB5D6673AB0A5CBB76E23BAFFF8B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		EF544C45465CBD2465BE05E29B3209DA /* Focus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 557A6709C9833265ECAC73F684A38602 /* Focus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F231666E0DCC30B34C875AFBA4A97F5A /* Pods-Focus_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12D2E7CA4FE0077FFE17AC105DF5A3 /* Pods-Focus_Example-dummy.m */; };
@@ -33,7 +33,6 @@
 		05CFECBAF588E724F6B2403AB0637686 /* Focus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Focus.modulemap; sourceTree = "<group>"; };
 		0D250DF9A2BDD3EA8CCA2DA7D8C0D7B9 /* Pods-Focus_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Focus_Example-resources.sh"; sourceTree = "<group>"; };
 		127D4469567C73871BACBE18766B7D91 /* Pods-Focus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Focus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		142161D24FDC41B7B11CFA3572209715 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		17CC979BE5A579CA87FE2F8D342871EA /* Pods-Focus_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Focus_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1A7D8633348D434707A94DCFBAF5576B /* Pods-Focus_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Focus_Tests-resources.sh"; sourceTree = "<group>"; };
 		1E3FE19B0D3FE5B6D63DBD09C697B6C7 /* Pods-Focus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Focus_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		581124132DAEA6DCFB3B934F730EEA37 /* Pods-Focus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Focus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5EB7B1EB1100CCF7061690D20315F9C4 /* Focus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Focus-prefix.pch"; sourceTree = "<group>"; };
 		604A9205C1B0353C3557E75B3D6AB9D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DEBCA7B6D87FDFBBB207B6DFF158F60 /* FocusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
 		748B17D707062B91F24152F5FC18B622 /* Pods-Focus_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Focus_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7D3BCB6CD50FEFB796A13BC46DE8A959 /* Pods_Focus_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Focus_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90CB5FFAE62B0F125F754887CFFC4386 /* Pods-Focus_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Focus_Example.modulemap"; sourceTree = "<group>"; };
@@ -103,9 +103,17 @@
 		68A4EE4B519F4908AA0E6D01218BCF2C /* Focus */ = {
 			isa = PBXGroup;
 			children = (
-				8EA852629CF3E768BCC197FA952C3AE6 /* Classes */,
+				752279F65D4FBE582E166E4BAACE0E21 /* Classes */,
 			);
 			path = Focus;
+			sourceTree = "<group>";
+		};
+		752279F65D4FBE582E166E4BAACE0E21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6DEBCA7B6D87FDFBBB207B6DFF158F60 /* FocusView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7824A2339B57E637516E95D9C533C527 /* Development Pods */ = {
@@ -135,14 +143,6 @@
 				985053F984F6FEE33FE5EDBA7FF614DE /* Products */,
 				EA67F025C07E64D63EDC816BB7B74CC1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8EA852629CF3E768BCC197FA952C3AE6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				142161D24FDC41B7B11CFA3572209715 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		985053F984F6FEE33FE5EDBA7FF614DE /* Products */ = {
@@ -256,7 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35C3B093940C6D0AB1F9835CD71D1F24 /* Build configuration list for PBXNativeTarget "Focus" */;
 			buildPhases = (
-				BC431D4F6F86BE5FAF48AA46A414E466 /* Sources */,
+				B418E01C2FD166F3FF2445E80579A39C /* Sources */,
 				7C1A3B39A3E81E565FB438960053BF42 /* Frameworks */,
 				07AC811C91327F554A4DC09FF41909A9 /* Headers */,
 			);
@@ -349,12 +349,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC431D4F6F86BE5FAF48AA46A414E466 /* Sources */ = {
+		B418E01C2FD166F3FF2445E80579A39C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				647BD9E77CDDD839AC74F177BF33828B /* Focus-dummy.m in Sources */,
-				628E16CC86D28E7BE16078185B562968 /* ReplaceMe.swift in Sources */,
+				8A7ECC5E2D1344FBF6857CA2A7299A4F /* Focus-dummy.m in Sources */,
+				DFDBA8278FD20D40376AD509D164101E /* FocusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
