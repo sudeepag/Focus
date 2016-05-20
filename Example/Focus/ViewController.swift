@@ -27,7 +27,8 @@ class ViewController: UIViewController {
         // Create the FocusView and add it as a subview to the main view
         fv = FocusView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height))
         // Specify the blur style
-        fv.blurStyle = .Dark
+        //fv.blurStyle = .Dark
+        fv.opacity = 0.7
         self.view.addSubview(fv)
     }
     
@@ -36,8 +37,8 @@ class ViewController: UIViewController {
             let touch = touches.first
             let p = touch!.locationInView(self.view)
             let selectedView = view.hitTest(p, withEvent: nil)
-            // Create a f
-            fv.focusOnView(selectedView!, focusType: .Circle, focusStyle: .Blur)
+            // Create a FocusView
+            fv.focusOnView(selectedView!, focusType: .Square, focusStyle: .Fade)
         } else {
             fv.removeFocus()
         }
