@@ -1,0 +1,16 @@
+PODS:
+  - Focus (0.1.0)
+
+DEPENDENCIES:
+  - Focus (from `../`)
+
+EXTERNAL SOURCES:
+  Focus:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Focus: 7a2e611c8717974ea6b3573310652881ef446d87
+
+PODFILE CHECKSUM: 65e50e5799715d5c58e045f3e1feebc5c113d08c
+
+COCOAPODS: 1.0.0

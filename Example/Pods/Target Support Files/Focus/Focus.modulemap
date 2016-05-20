@@ -1,0 +1,6 @@
+framework module Focus {
+  umbrella header "Focus-umbrella.h"
+
+  export *
+  module * { export * }
+}
