@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Focus_Example' do
+  pod 'Focus', :path => '../'
+
+  target 'Focus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
