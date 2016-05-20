@@ -8,6 +8,11 @@ Focus is a masking view that allows you to focus on or highlight UI elements. It
 [![License](https://img.shields.io/cocoapods/l/Focus.svg?style=flat)](http://cocoapods.org/pods/Focus)
 [![Platform](https://img.shields.io/cocoapods/p/Focus.svg?style=flat)](http://cocoapods.org/pods/Focus)
 
+<p align = "center">
+<img src="https://cloud.githubusercontent.com/assets/11940172/15418742/3f5ad52e-1e16-11e6-8b4c-5cb8bd197ec4.gif" alt="blur" width="375" height="667"> 
+<img src="https://cloud.githubusercontent.com/assets/11940172/15418743/3f73f4be-1e16-11e6-8845-6f13eea0189d.gif" alt="fade" width="375" height="667"> 
+</p>
+
 ## Installation
 
 Focus is available through [CocoaPods](http://cocoapods.org). To install
